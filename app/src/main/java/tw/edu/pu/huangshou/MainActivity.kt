@@ -41,6 +41,7 @@ class MainActivity : ComponentActivity() {
             HuangshouTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Birth(m = Modifier.padding(innerPadding))
+
                 }
             }
         }
