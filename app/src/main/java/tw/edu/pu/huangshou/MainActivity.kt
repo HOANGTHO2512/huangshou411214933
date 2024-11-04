@@ -134,6 +134,10 @@ fun Birth(m: Modifier){
                             }
                         }
                     }
+                db.collection("users")
+                    .document(userName)
+                    .delete()
+                msg = "刪除資料"
             }) {
                 Text("刪除資料")
             }
